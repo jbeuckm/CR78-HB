@@ -15175,22 +15175,22 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R3" library="rcl" deviceset="R-US_" device="0207/7" value="270k"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="1N4148"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-US_" device="0207/7" value="390k"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="0207/7" value="150k"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="0207/7" value="15k"/>
-<part name="C2" library="rcl" deviceset="C-US" device="050-025X075" value="22n"/>
-<part name="C3" library="rcl" deviceset="C-US" device="050-025X075" value="27n"/>
-<part name="C4" library="rcl" deviceset="C-US" device="050-025X075" value="22n"/>
+<part name="C2" library="rcl" deviceset="C-US" device="050-025X075" value="82n"/>
+<part name="C3" library="rcl" deviceset="C-US" device="050-025X075" value="82n"/>
+<part name="C4" library="rcl" deviceset="C-US" device="050-025X075" value="68n"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="R7" library="TR808clone" deviceset="TRIM_EU-" device="B64Y" value="10KB"/>
-<part name="C5" library="rcl" deviceset="C-US" device="050-025X075" value="22n"/>
+<part name="C5" library="rcl" deviceset="C-US" device="050-025X075" value="68n"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="0207/7" value="15k"/>
 <part name="Q2" library="808_lt" deviceset="2N3904" device=""/>
 <part name="R13" library="rcl" deviceset="R-US_" device="0207/7" value="100R"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="0207/7" value="1M5"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="0207/7" value="560k"/>
-<part name="C6" library="rcl" deviceset="C-US" device="050-025X075" value="10n"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="0207/7" value="18k"/>
+<part name="C6" library="rcl" deviceset="C-US" device="050-025X075" value="27n"/>
 <part name="R12" library="TR808clone" deviceset="TRIM_EU-" device="B64Y" value="500R"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -15202,7 +15202,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="C8" library="rcl" deviceset="C-US" device="050-025X075" value="47p"/>
 <part name="R16" library="rcl" deviceset="R-US_" device="0207/7" value="470k"/>
 <part name="R17" library="rcl" deviceset="R-US_" device="0207/7" value="47k"/>
-<part name="R18" library="rcl" deviceset="R-US_" device="0207/7" value="220R"/>
+<part name="R18" library="rcl" deviceset="R-US_" device="0207/2V" value="220R"/>
 <part name="C9" library="rcl" deviceset="CPOL-US" device="B45181A" value="1uF"/>
 <part name="JCK1" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="X1" library="con-molex" deviceset="22-23-2021" device=""/>
@@ -15212,6 +15212,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="R19" library="rcl" deviceset="R-US_" device="0207/2V" value="10k"/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15247,7 +15249,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="R13" gate="G$1" x="119.38" y="38.1" rot="R270"/>
 <instance part="R10" gate="G$1" x="111.76" y="71.12" rot="R270"/>
 <instance part="R11" gate="G$1" x="119.38" y="86.36" rot="R270"/>
-<instance part="R14" gate="G$1" x="139.7" y="78.74"/>
+<instance part="R14" gate="G$1" x="142.24" y="78.74"/>
 <instance part="C6" gate="G$1" x="127" y="78.74" rot="R90"/>
 <instance part="R12" gate="1" x="119.38" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="128.27" y="47.371" size="1.778" layer="95" rot="R180"/>
@@ -15274,6 +15276,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="GND9" gate="1" x="177.8" y="30.48"/>
 <instance part="R15" gate="G$1" x="160.02" y="60.96" rot="R270"/>
 <instance part="GND8" gate="1" x="160.02" y="30.48"/>
+<instance part="R19" gate="G$1" x="134.62" y="71.12" rot="R270"/>
+<instance part="GND12" gate="1" x="134.62" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -15355,6 +15359,11 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="160.02" y1="33.02" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="134.62" y1="33.02" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -15505,7 +15514,11 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="76.2" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+<junction x="134.62" y="78.74"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -15547,7 +15560,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
