@@ -8792,6 +8792,10 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="TM1" gate="1" pin="E"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="43.18" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="TM1" gate="1" pin="S"/>
+<wire x1="114.3" y1="50.8" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<junction x="119.38" y="45.72"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8825,6 +8829,13 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="PWR1" gate="G$1" pin="GATE"/>
 <wire x1="-2.54" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="TM1" gate="1" pin="A"/>
+<pinref part="Q1" gate="G1" pin="E"/>
+<wire x1="119.38" y1="55.88" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
