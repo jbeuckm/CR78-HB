@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/jpbeuc1/test/CR78-HB/eagle/CR78-HB.brd
 
-Start at      : 13:08:48 (5/31/16)
-End at        : 13:08:49 (5/31/16)
-Elapsed time  : 00:00:00
+Start at      : 17:36:34 (6/8/16)
+End at        : 17:36:41 (6/8/16)
+Elapsed time  : 00:00:05
 
 Signals       :    23   RoutingGrid: 25 mil  Layers: 1
-Connections   :    59   predefined:  0 ( 0 Vias )
+Connections   :    55   predefined:  0 ( 0 Vias )
 
-Router memory :   49686
+Router memory :   49500
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         7         0         0         0         0
-max. Level        :         0         2         0         0         0         0
-max. Total        :         0        15         0         0         0         0
+Time per pass     :  00:00:04  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Number of Ripups  :         0        22         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         3         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         8         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :         4        56        56        56        56        56
-Vias              :         0         0         0         0         0         0
-Resolution        :     6.8 %    94.9 %    94.9 %    94.9 %    94.9 %    94.9 %
+Routed            :        41        49        48        51        51        51        51        51        51        51        51        51        51        51
+Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Resolution        :    74.5 %    89.1 %    87.3 %    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %    92.7 %
 
-Final             : 94.9% finished
+Final             : 92.7% finished
