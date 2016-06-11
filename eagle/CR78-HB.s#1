@@ -13051,19 +13051,19 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="R4" library="rcl" deviceset="R-US_" device="0207/7" value="390k"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="0207/7" value="15k"/>
-<part name="C2" library="rcl" deviceset="C-US" device="050-025X075" value="22n"/>
-<part name="C3" library="rcl" deviceset="C-US" device="050-025X075" value="27n"/>
-<part name="C4" library="rcl" deviceset="C-US" device="050-025X075" value="22n"/>
+<part name="C2" library="rcl" deviceset="C-US" device="050-025X075" value="12n"/>
+<part name="C3" library="rcl" deviceset="C-US" device="050-025X075" value="18n"/>
+<part name="C4" library="rcl" deviceset="C-US" device="050-025X075" value="12n"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="R7" library="pot" deviceset="3RP/1610N" device="" value="10KB"/>
-<part name="C5" library="rcl" deviceset="C-US" device="050-025X075" value="22n"/>
+<part name="C5" library="rcl" deviceset="C-US" device="050-025X075" value="10n"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="0207/5V" value="15k"/>
 <part name="Q2" library="808_lt" deviceset="2N3904" device=""/>
 <part name="R13" library="rcl" deviceset="R-US_" device="0207/7" value="100R"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="0207/7" value="1M5"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
-<part name="R14" library="rcl" deviceset="R-US_" device="0207/7" value="560k"/>
-<part name="C6" library="rcl" deviceset="C-US" device="050-025X075" value="10n"/>
+<part name="R14" library="rcl" deviceset="R-US_" device="0207/7" value="680k"/>
+<part name="C6" library="rcl" deviceset="C-US" device="050-025X075" value="8n2"/>
 <part name="R12" library="pot" deviceset="3RP/1610N" device="" value="10k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>

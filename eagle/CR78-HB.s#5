@@ -13091,7 +13091,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <sheets>
 <sheet>
 <plain>
-<text x="111.76" y="55.88" size="1.778" layer="91">(500R)</text>
+<text x="111.76" y="53.34" size="1.778" layer="91">(500R)</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G1" x="22.86" y="43.18"/>
