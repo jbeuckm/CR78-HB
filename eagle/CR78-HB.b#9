@@ -1670,7 +1670,6 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="12.7" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R20" library="rcl" package="0207/5V" value="263" x="45.72" y="6.985" rot="R90"/>
-<element name="R21" library="rcl" package="0207/5V" value="263" x="5.08" y="-12.7"/>
 </elements>
 <signals>
 <signal name="+12V">
@@ -1809,11 +1808,9 @@ design rules under a new name.</description>
 <wire x1="47.625" y1="9.525" x2="45.72" y2="9.525" width="0.8128" layer="16"/>
 <wire x1="49.53" y1="10.16" x2="47.625" y2="9.525" width="0.8128" layer="16"/>
 <wire x1="57.15" y1="3.81" x2="56.515" y2="3.81" width="0.8128" layer="16"/>
-<contactref element="R21" pad="1"/>
 <contactref element="R13" pad="1"/>
 <wire x1="50.165" y1="10.795" x2="56.515" y2="3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="49.53" y1="10.16" x2="50.165" y2="10.795" width="0" layer="19" extent="16-16"/>
-<wire x1="2.54" y1="-12.7" x2="45.72" y2="9.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="C3" pad="2"/>
@@ -1928,11 +1925,6 @@ design rules under a new name.</description>
 <contactref element="C9" pad="-"/>
 <contactref element="JCK1" pad="P$3"/>
 <wire x1="73.787" y1="18.923" x2="76.915" y2="15.7" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$20">
-<contactref element="R12" pad="3"/>
-<contactref element="R21" pad="2"/>
-<wire x1="7.62" y1="-12.7" x2="61.515" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
